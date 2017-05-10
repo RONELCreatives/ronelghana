@@ -1,0 +1,12 @@
+<url>
+    <loc>http://ronelghana.com{{site.url}}{{include.entry.url}}</loc>
+    {% if include.entry.lastmod %}
+        <lastmod>{{page.lastmod}}</lastmod>
+    {% endif %}
+    {% if include.entry.changefreq %}
+        <changefreq>{{page.changefreq}}</changefreq>
+    {% endif %}
+    {% if include.entry.priority %}
+        <priority>{{page.priority}}</priority>
+    {% endif %}
+</url>

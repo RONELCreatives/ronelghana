@@ -1,0 +1,70 @@
+--- 
+layout: blog
+breadImgUrl: bg-14.jpg
+---
+
+<div class="nd-region">
+    <div class="container">
+        <div id="Content" class="row">
+            <div id="content" class="col-md-12 ">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2"></div>
+                    </div>
+                </div>
+                <div class="region region-content">
+                    <div id="block-system-main" class="block block-system  ">
+                        <div class="block-content clearfix">
+                            <div id="node-124" class="node node-nd-blog clearfix">
+                                <div class="blog-item mb-80 mb-xs-40">
+                                    <div class="blog-item-body">
+                                        <div class="field field-name-field-second-title field-type-text field-label-hidden">
+                                            <h1 class="mt-0 font-alt">{{page.title}}</h1></div>
+                                        <div class="field field-name-field-lead-text field-type-text-long field-label-hidden">
+                                            <div class="lead">
+                                                <p> {{page.brief}}</p>
+                                            </div>
+                                        </div>
+<!--                                        slide-->
+                                    {% include blog/slider-car.html %}
+<!--
+                                        <div class="field field-name-field-images field-type-image field-label-hidden">
+                                            <ul class="clearlist content-slider mb-40">
+                                                <li><img src="{{site.url}}/assets/img/blog/car1.jpg" width="1140" height="642" alt="Alt" /></li>
+                                                <li><img src="{{site.url}}/assets/img/blog/car%20branding.jpg" width="1140" height="642" alt="Alt" /></li>
+                                                <li><img src="{{site.url}}/assets/img/blog/car2.jpg" width="1140" height="642" alt="Alt" /></li>
+                                            </ul>
+                                        </div>
+-->
+<!--                                        /.slider-->
+                                        <div class="field field-name-body field-type-text-with-summary field-label-hidden">
+                                            <p style="box-sizing: border-box; margin: 0px 0px 2em; color: rgb(95, 95, 95); font-family: 'Open Sans', arial, sans-serif; font-size: 16px; line-height: 28.7999992370605px;"> 
+                                            
+                                            {{content}}
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+<!--                                Comment Start-->
+                                    {% include blog/comment.html %}
+<!--                                Comment End-->
+                                <div class="clearfix mt-40"> <a href="#" class="blog-item-more left"><i class="fa fa-angle-left"></i>&nbsp;Prev post</a> <a href="#" class="blog-item-more right">Next post&nbsp;<i class="fa fa-angle-right"></i></a> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.block -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="nd-region">
+    <div class="container-fluid">
+        <div id="Content-Bottom-Full-Width" class="row"> </div>
+    </div>
+</div>
+<div class="nd-region">
+    <div class="container">
+        <div id="Content-Bottom" class="row"> </div>
+    </div>
+</div>

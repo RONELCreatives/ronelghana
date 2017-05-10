@@ -1,0 +1,21 @@
+---
+layout: post-tile
+carousel_images:
+  - img/blog/car0.jpg
+  - img/blog/car1.jpg
+  - img/blog/car2.jpg
+---
+
+
+  <div class="field field-name-field-images field-type-image field-label-hidden">
+    <ul class="clearlist content-slider mb-40">
+    {% for img in page.carousel_images %}
+        <li><img src="{{site.url}}/assets/{{carousel_images}}" width="1140" height="642" alt="Alt" /></li>
+    {% endfor %}
+<!--
+        <li><img src="{{site.url}}/assets/img/blog/car1.jpg" width="1140" height="642" alt="Alt" /></li>
+        <li><img src="{{site.url}}/assets/img/blog/car2.jpg" width="1140" height="642" alt="Alt" /></li>
+-->
+    </ul>
+  </div>
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        {% include global/head.html %}
+    </head>
+
+    <body class="appear-animate html front not-logged-in no-sidebars page-node page-node- page-node-7 node-type-nd-page">
+        <div class="main-wrap">
+            <!-- Page Loader -->
+            <div class="page-loader">
+                <div class="loader">Loading...</div>
+            </div>
+            <!-- End Page Loader -->
+            <div class="page"> 
+                <div  id="top" class="col-md-12 ">
+                    {% include blog/nav.html %}
+                </div>
+                   <!-- main body section -->
+                    {{ content }}
+            
+                {% include global/footer.html %} 
+           </div>
+                {% include global/footer-scripts.html %} 
+        </div>
+        
+      {% include global/livechat.html %} 
+   
+    </body>
+
+</html>
+<!-- Localized -->

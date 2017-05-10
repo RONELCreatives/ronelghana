@@ -1,0 +1,93 @@
+/*
+====================================================================
+    8. Slider css Start
+====================================================================
+*/
+
+.main-slider .sub-title-1 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    color: #1a1a1a;
+    font-style: italic;
+    font-weight: 300;
+}
+.main-slider .slider-title-1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 72px;
+    color: #1a1a1a;
+}
+.main-slider .slider-title-1 span {
+    color: #C6A47E;
+    font-size: 72px;
+    font-weight: 500;
+}
+.main-slider .sub-title-2 {
+    color: #686868;
+    font-size: 180px;
+    font-family: 'Oswald', sans-serif;
+    opacity: 0.3;
+}
+.main-slider .slider-title-2 {
+    color: #FFF;
+    font-size: 36px;
+    text-transform: none;
+    line-height: 53px;
+    font-family: 'Poppins', sans-serif;
+}
+.main-slider .slider-title-2 span {
+    color: #C6A47E;
+    font-size: 36px;
+}
+.slider-title-2-border {
+    border-left: 2px solid #FFF;
+    border-bottom: 1px solid #FFF;
+    width: 420px;
+    height: 270px;
+}
+.slider-title-2-round {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-left: -7px;
+}
+.main-slider .slider-title-3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    color: #FFF;
+    line-height: 72px;
+}
+.main-slider .slider-title-3 span {
+    color: #C6A47E;
+    font-weight: 500;
+    font-size: 42px;
+}
+
+.main-slider .slider-btn {
+    background: #C6A47E;
+    color: #ffffff !important;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    box-shadow: 3px 4px 7px rgba(152, 150, 148, 0.5);
+    border: none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out
+}
+.main-slider .slider-btn:hover {
+    background: #b4916b;
+    color: #ffffff !important;
+    -webkit-box-shadow: 6px 7px 11px -8px rgba(198,164,126,0.7);
+    -moz-box-shadow: 6px 7px 11px -8px rgba(198,164,126,0.7);
+    box-shadow: 6px 7px 11px -8px rgba(198,164,126,0.7);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        {% include global/head.html %}
+    </head>
+    <body class="appear-animate html not-front not-logged-in no-sidebars page-page-404 body-background bg-dark-alfa-50">
+        <div class="main-wrap">
+            <!-- Page Loader -->        
+            <div class="page-loader">
+                <div class="loader">Loading...</div>
+            </div>
+            <!-- End Page Loader -->
+            <div class="page"> 
+
+                <!-- main body section -->
+                {{ content }}
+
+            </div>
+            {% include global/footer-scripts.html %} 
+        </div>
+
+        {% include global/livechat.html %} 
+
+    </body>
+
+</html>
